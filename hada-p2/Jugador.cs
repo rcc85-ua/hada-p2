@@ -31,9 +31,7 @@ public class Jugador
 				else
 					_amonestaciones = value;
 				if (value > maxAmonestaciones)
-				{
 					amonestacionesMaximoExcedido(this, new AmonestacionesMaximoExcedidoArgs(value));
-				}
 			}
 			}
 		private int _faltas;
